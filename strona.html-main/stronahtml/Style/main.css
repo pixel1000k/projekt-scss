@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  background-color: #333;
+  color: limegreen;
+  text-align: center;
+  width: 100%;
+  height: 17vh;
+  margin: 0px;
+  position: relative;
+}
+header b {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 6vh;
+  margin: 0;
+  position: absolute;
+  left: 20px;
+  top: 20%;
+  transform: translateY(-50%);
+  color: green;
+  font-weight: bolder;
+}
+header nav {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header nav ul li a {
+  color: limegreen;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+  font-size: 4vh;
+}
+
+footer {
+  background-color: #333;
+  color: limegreen;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+footer p {
+  margin: 15px 0;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
+}
+footer h1 {
+  margin: 13px 0;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
+}
+
+.head-container {
+  background-color: #3498db;
+  background-image: url("https://sprawdzonakuchnia.pl/wp-content/uploads/2013/02/paczki.jpg");
+  background-size: cover;
+  padding: 35vh;
+  text-align: center;
+  margin-top: -30vh;
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header-container {
+  background-color: #3498db;
+  background-image: url("https://staticsmaker.iplsc.com/smaker_production_2024_02_02/2cc929a139a09e76a09d4ccff5af3293-recipe_main.jpg");
+  background-size: cover;
+  padding: 25vh;
+  text-align: center;
+  margin-top: -170px;
+}
+
+.company-logo {
+  max-width: 400px;
+  height: auto;
+}
+
+.company-info {
+  background-color: rgb(255, 136, 0);
+  color: black;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Your-Fancy-Font", sans-serif;
+  font-size: 25px;
+  border-radius: 14px;
+}
+
+.google-maps-link {
+  background-color: #2ecc71;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: fantasy;
+  border-radius: 18px;
+}
+
+.google-maps-link:hover {
+  background-color: limegreen;
+}
+
+section.conta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Polskie_p%C4%85czki.jpg/1280px-Polskie_p%C4%85czki.jpg");
+  background-size: cover;
+  padding: 12vh;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.figure {
+  width: 23%;
+  margin-bottom: 2vh;
+  text-align: center;
+  font-weight: bold;
+  -webkit-text-fill-color: green;
+  background-color: #333;
+  border-radius: 14px;
+}
+
+.figure img {
+  max-width: 100%;
+  height: 80%;
+  border: 0, 2vh solid #333;
+  border-radius: 1vh;
+}
+
+.figure figcaption {
+  margin-top: 1vh;
+  font-size: 4vh;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+
+section.conta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Polskie_p%C4%85czki.jpg/1280px-Polskie_p%C4%85czki.jpg");
+    background-size:cover;
+    padding: 12vh;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.figure {
+    width: 23%;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-fill-color: green;
+    background-color: #333;
+    border-radius: 14px;
+}
+
+.figure img {
+    max-width: 100%;
+    height: 80%;
+    border: 0,2vh solid #333;
+    border-radius: 1vh;
+}
+
+.figure figcaption {
+    margin-top: 1vh;
+    font-size: 4vh;
+}
+
+
+
+
+
+
+
